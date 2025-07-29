@@ -30,11 +30,9 @@ function App() {
   const personaRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
 
-  // Sayfa yüklendiğinde tab title'ını ayarla
   useEffect(() => {
     updateTabTitle(currentLanguage);
     
-    // localStorage'dan lastFormData'yı yükle
     const savedLastFormData = localStorage.getItem('tasteMirror_lastFormData');
     if (savedLastFormData) {
       try {
@@ -43,24 +41,21 @@ function App() {
         console.error('Error parsing saved lastFormData:', error);
       }
     }
-  }, []); // Sadece bir kez çalışsın
+  }, []); 
 
-  // Splash screen completion handler
   const handleSplashComplete = () => {
     setShowSplash(false);
   };
 
-  // Basit dil değişikliği handler'ı
+
   const handleLanguageChange = (newLanguage: string) => {
     i18n.changeLanguage(newLanguage);
     setCurrentLanguage(newLanguage);
     localStorage.setItem('tasteMirror_language', newLanguage);
     
-    // Tab title'ını güncelle
     updateTabTitle(newLanguage);
   };
 
-  // Tab title'ını dil bazında güncelle
   const updateTabTitle = (language: string) => {
     if (loading) {
       document.title = t('loading.title');
@@ -78,19 +73,17 @@ function App() {
       music: string;
       brands: string;
       gender: string;
-      language: string; // Form'dan gelen dil
+      language: string; 
     },
-    randomSeed: number = Math.floor(Math.random() * 1000) // Generate random seed by default
+    randomSeed: number = Math.floor(Math.random() * 1000) 
   ) => {
     setLoading(true);
     setError(null);
     setResult(null);
     setCountryInsights([]);
-    
-    // Form'da seçilen dili kullan
+
     const selectedLanguage = formData.language || currentLanguage;
     
-    // Loading aşamalarını göster
     const currentStages = {
       start: t('loading.stages.start'),
       analyzing: t('loading.stages.analyzing'),
@@ -98,35 +91,29 @@ function App() {
       finalizing: t('loading.stages.finalizing')
     };
     
-    // Başlangıç aşaması
     setLoadingStage(currentStages.start);
     updateTabTitle(selectedLanguage);
-    
-    // Önceki isteği iptal et
+
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
     }
     
-    // Yeni AbortController oluştur
     abortControllerRef.current = new AbortController();
 
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 dakika timeout
-      
-      // Analiz aşaması
+      const timeoutId = setTimeout(() => controller.abort(), 120000); 
+
       setTimeout(() => setLoadingStage(currentStages.analyzing), 2000);
-      
-      // Kültürel eşleştirme aşaması
+
       setTimeout(() => setLoadingStage(currentStages.cultural), 4000);
-      
-      // Final aşaması
+
       setTimeout(() => setLoadingStage(currentStages.finalizing), 6000);
       
       const requestBody = {
         ...formData,
-        language: selectedLanguage, // Form'da seçilen dili kullan
-        randomSeed: randomSeed, // Added randomSeed to request body
+        language: selectedLanguage, 
+        randomSeed: randomSeed, 
       };
       
       console.log('🔍 DEBUG: Sending request with randomSeed:', randomSeed);
@@ -137,7 +124,7 @@ function App() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept-Language': selectedLanguage, // Add Accept-Language header
+          'Accept-Language': selectedLanguage, 
         },
         body: JSON.stringify(requestBody),
         signal: controller.signal,
@@ -156,14 +143,12 @@ function App() {
         setResult(parsed);
         setCountryInsights(data.countryInsights || []);
         
-        // Result geldiğinde tab title'ını güncelle
         updateTabTitle(selectedLanguage);
         
-        // Save to localStorage and state
         localStorage.setItem('tasteMirror_result', JSON.stringify(parsed));
         localStorage.setItem('tasteMirror_countryInsights', JSON.stringify(data.countryInsights || []));
         localStorage.setItem('tasteMirror_lastFormData', JSON.stringify(formData));
-        setLastFormData(formData); // Save to state as well
+        setLastFormData(formData);
       } else {
         throw new Error('Invalid response format');
       }
@@ -178,7 +163,6 @@ function App() {
     } finally {
       setLoading(false);
       setLoadingStage('');
-      // Loading bittiğinde tab title'ını güncelle
       updateTabTitle(selectedLanguage);
     }
   };
@@ -186,18 +170,16 @@ function App() {
   const handleDownload = async () => {
     if (!exportRef.current) return;
 
-    // Get current language translations using t() function
     const cardTitle = t('card_title');
     const generatedBy = t('generated_by');
     const discoverText = t('discover_text');
 
-    // Create a compact, horizontal card layout
     const tempDiv = document.createElement('div');
     tempDiv.style.position = 'absolute';
     tempDiv.style.left = '-9999px';
     tempDiv.style.top = '-9999px';
     tempDiv.style.width = '1200px';
-    tempDiv.style.height = '630px'; // Instagram story size
+    tempDiv.style.height = '630px'; 
     tempDiv.style.backgroundColor = '#1e1b4b';
     tempDiv.style.padding = '40px';
     tempDiv.style.borderRadius = '20px';

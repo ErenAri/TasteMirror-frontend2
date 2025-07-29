@@ -61,6 +61,8 @@
   "discover_text": "tastemirror.online पर अपने सांस्कृतिक जुड़वां को खोजें",
   "your_cultural_twin": "आपका सांस्कृतिक जुड़वां",
   "file_name": "sanskritik_jodhvan",
+  "image_downloaded_message": "आपका सांस्कृतिक जुड़वां कार्ड डाउनलोड हो गया है। आप इसे WhatsApp पर शेयर करने के लिए अपनी गैलरी से सेलेक्ट कर सकते हैं।",
+  "whatsapp_share_instructions": "आपका सांस्कृतिक जुड़वां कार्ड डाउनलोड हो गया है! WhatsApp पर शेयर करने के लिए गैलरी से इमेज सेलेक्ट करें।",
   "result": {
     "persona": "आपकी प्रोफ़ाइल",
     "traits": "गुण",

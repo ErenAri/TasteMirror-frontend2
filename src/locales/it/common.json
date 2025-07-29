@@ -51,6 +51,8 @@
   "discover_text": "Scopri il tuo gemello culturale su tastemirror.online",
   "your_cultural_twin": "Il Tuo Gemello Culturale",
   "file_name": "gemello_culturale",
+  "image_downloaded_message": "La tua carta del gemello culturale è stata scaricata. Puoi selezionarla dalla tua galleria per condividerla su WhatsApp.",
+  "whatsapp_share_instructions": "La tua carta del gemello culturale è stata scaricata! Seleziona l'immagine dalla tua galleria per condividerla su WhatsApp.",
   "loading": {
     "title": "Generazione del tuo Profilo IA...",
     "subtitle": "Analisi della personalità e ricerca di corrispondenze culturali",

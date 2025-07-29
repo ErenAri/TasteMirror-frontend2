@@ -52,6 +52,8 @@
   "discover_text": "Kültürel ikizinizi tastemirror.online adresinde keşfedin",
   "your_cultural_twin": "Kültürel İkiziniz",
   "file_name": "kulturel_ikiz",
+  "image_downloaded_message": "Kültürel ikiz kartınız indirildi. WhatsApp'ta paylaşmak için galeriden seçebilirsiniz.",
+  "whatsapp_share_instructions": "Kültürel ikiz kartınız indirildi! WhatsApp'ta paylaşmak için galeriden resmi seçin.",
   "loading": {
     "title": "AI Profiliniz Oluşturuluyor...",
     "subtitle": "Kişilik analizi ve kültürel eşleştirme yapılıyor",

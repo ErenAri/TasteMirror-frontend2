@@ -51,6 +51,8 @@
   "discover_text": "Découvrez votre jumeau culturel sur tastemirror.online",
   "your_cultural_twin": "Votre Jumeau Culturel",
   "file_name": "jumeau_culturel",
+  "image_downloaded_message": "Votre carte de jumeau culturel a été téléchargée. Vous pouvez la sélectionner depuis votre galerie pour la partager sur WhatsApp.",
+  "whatsapp_share_instructions": "Votre carte de jumeau culturel a été téléchargée ! Sélectionnez l'image depuis votre galerie pour la partager sur WhatsApp.",
   "loading": {
     "title": "Génération de votre Profil IA...",
     "subtitle": "Analyse de la personnalité et recherche de correspondances culturelles",

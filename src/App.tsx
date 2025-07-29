@@ -12,6 +12,7 @@ import CulturalMapWorld from './components/CulturalMapWorld';
 import PersonalityBadges from './components/PersonalityBadges';
 import CulturalCompatibility from './components/CulturalCompatibility';
 import Particles from 'react-tsparticles';
+import SplashScreen from './components/SplashScreen';
 import './i18n/config';
 import CulturalDNAScore from './components/CulturalDNAScore';
 
@@ -24,6 +25,7 @@ function App() {
   const [lastFormData, setLastFormData] = useState<any>(null);
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
   const [loadingStage, setLoadingStage] = useState<string>('');
+  const [showSplash, setShowSplash] = useState(true);
   const exportRef = useRef<HTMLDivElement>(null);
   const personaRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -42,6 +44,11 @@ function App() {
       }
     }
   }, []); // Sadece bir kez çalışsın
+
+  // Splash screen completion handler
+  const handleSplashComplete = () => {
+    setShowSplash(false);
+  };
 
   // Basit dil değişikliği handler'ı
   const handleLanguageChange = (newLanguage: string) => {
@@ -340,23 +347,24 @@ function App() {
 
       document.body.removeChild(tempDiv);
 
-      const blob = await new Promise<Blob>((resolve) => {
-        canvas.toBlob((blob) => resolve(blob!), 'image/png');
-      });
+      // First, download the image so user can access it
+      const link = document.createElement('a');
+      const fileName = `cultural_twin_${result?.personaName?.replace(/[^a-zA-Z0-9]/g, '_') || 'card'}.png`;
+      link.download = fileName;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
 
-      const file = new File([blob], 'cultural_twin.png', { type: 'image/png' });
-
-      if (navigator.share && navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          title: t('your_cultural_twin'),
-          text: t('discover_text'),
-          files: [file],
-        });
-      } else {
-        const text = encodeURIComponent(t('discover_text'));
-        const whatsappUrl = `https://wa.me/?text=${text}`;
-        window.open(whatsappUrl, "_blank");
-      }
+      // Then open WhatsApp with a message about the downloaded image
+      const message = `${t('discover_text')}\n\n${t('image_downloaded_message')}`;
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
+      
+      // Show a notification to the user
+      setTimeout(() => {
+        alert(t('whatsapp_share_instructions'));
+      }, 1000);
+      
+      window.open(whatsappUrl, "_blank");
     } catch (error) {
       console.error('WhatsApp sharing failed:', error);
       const text = encodeURIComponent(t('discover_text'));
@@ -526,6 +534,11 @@ function App() {
   //   console.log('currentLanguage:', currentLanguage);
   //   console.log('=== END LANGUAGE DEBUG ===');
   // }, [i18n.language, currentLanguage]);
+
+  // Show splash screen first
+  if (showSplash) {
+    return <SplashScreen onComplete={handleSplashComplete} />;
+  }
 
   if (loading) {
     return (

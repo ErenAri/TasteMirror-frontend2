@@ -51,6 +51,8 @@
   "discover_text": "Discover your cultural twin at tastemirror.online",
   "your_cultural_twin": "Your Cultural Twin",
   "file_name": "cultural_twin",
+  "image_downloaded_message": "Your cultural twin card has been downloaded. You can select it from your gallery to share on WhatsApp.",
+  "whatsapp_share_instructions": "Your cultural twin card has been downloaded! Select the image from your gallery to share on WhatsApp.",
   "loading": {
     "title": "Generating Your AI Profile...",
     "subtitle": "Analyzing personality and finding cultural matches",

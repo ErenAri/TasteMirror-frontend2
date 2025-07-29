@@ -26,7 +26,7 @@ i18n
       it: { translation: it },
     },
     fallbackLng: 'en', // Simplified fallback
-    lng: 'tr', // Default language - Türkçe başlangıç
+    lng: 'en', // Default language - English başlangıç
     interpolation: { 
       escapeValue: false 
     },

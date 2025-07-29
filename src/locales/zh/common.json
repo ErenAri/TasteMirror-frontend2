@@ -51,6 +51,8 @@
   "discover_text": "在tastemirror.online发现你的文化双胞胎",
   "your_cultural_twin": "你的文化双胞胎",
   "file_name": "wenhua_shuangbaotai",
+  "image_downloaded_message": "你的文化双胞胎卡片已下载。你可以从相册中选择它来在WhatsApp上分享。",
+  "whatsapp_share_instructions": "你的文化双胞胎卡片已下载！从相册中选择图片来在WhatsApp上分享。",
   "loading": {
     "title": "正在生成您的AI档案...",
     "subtitle": "分析个性并寻找文化匹配",

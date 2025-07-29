@@ -59,7 +59,7 @@ const Form: React.FC<FormProps> = ({ onSubmit, loading }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-8 bg-white/90 backdrop-blur-md rounded-2xl shadow-xl flex flex-col gap-6 max-w-md w-full text-black border border-white/20">
+    <form onSubmit={handleSubmit} className="p-8 bg-white/90 backdrop-blur-md rounded-2xl shadow-xl flex flex-col gap-6 max-w-md w-full text-black border border-white/20 animate-fade-in-up">
       <div className="text-center mb-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">{t('form.title')}</h2>
         <p className="text-gray-600 text-sm">{t('form.subtitle')}</p>

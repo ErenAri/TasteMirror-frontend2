@@ -1,0 +1,261 @@
+{
+  "form": {
+    "title": "Entdecke deinen Kulturellen Zwilling",
+    "subtitle": "Finde deinen kulturellen Zwilling mit KI-gestützter Persönlichkeitsanalyse",
+    "movies": "Lieblingsfilme",
+    "moviesPlaceholder": "z.B. Inception, Matrix, ...",
+    "movies_help": "Teilen Sie Ihre Lieblingsfilme, Genres oder Regisseure",
+    "music": "Lieblingsmusik",
+    "musicPlaceholder": "z.B. Rock, Pop, Jazz, ...",
+    "music_help": "Teilen Sie Ihre Lieblingskünstler, Genres oder Songs",
+    "brands": "Lieblingsmarken",
+    "brandsPlaceholder": "z.B. Nike, Apple, ...",
+    "brands_help": "Teilen Sie Ihre Lieblingsmarken, Produkte oder Unternehmen",
+    "gender": "Geschlecht",
+    "genderSelect": "Auswählen",
+    "genderMale": "Männlich",
+    "genderFemale": "Weiblich",
+    "genderNonBinary": "Nicht-binär",
+    "genderOther": "Andere",
+    "gender_help": "Wählen Sie Ihre Geschlechtsidentität für bessere kulturelle Übereinstimmung",
+    "submit": "Absenden",
+    "loading": "Lädt..."
+  },
+  "gender": {
+    "male": "Männlich",
+    "female": "Weiblich",
+    "nonbinary": "Nicht-binär",
+    "prefer": "Möchte ich nicht angeben",
+    "select": "Geschlecht auswählen"
+  },
+  "loading": {
+    "title": "KI-Profil wird erstellt...",
+    "subtitle": "Persönlichkeitsanalyse und kulturelle Übereinstimmungen werden gesucht",
+    "stages": {
+      "start": "KI-Profil wird erstellt...",
+      "analyzing": "Persönlichkeit wird analysiert...",
+      "cultural": "Kulturelle Übereinstimmungen werden gesucht...",
+      "finalizing": "Ergebnisse werden finalisiert..."
+    }
+  },
+  "download": "Kulturkarte herunterladen",
+  "tryAnother": "Anderen kulturellen Zwilling testen",
+  "share": "𝕏 Auf X teilen",
+  "result": {
+    "persona": "Deine Persönlichkeit",
+    "traits": "Eigenschaften",
+    "insights": "Persönlichkeitseinblicke"
+  },
+  "traits": {
+    "innovative": "Innovativ",
+    "trendsetter": "Trendsetter",
+    "adventurous": "Abenteuerlustig",
+    "technophile": "Technophil",
+    "determined": "Entschlossen",
+    "creative": "Kreativ",
+    "analytical": "Analytisch",
+    "social": "Sozial",
+    "introspective": "Introspektiv",
+    "extroverted": "Extrovertiert",
+    "empathetic": "Einfühlsam",
+    "logical": "Logisch",
+    "artistic": "Künstlerisch",
+    "practical": "Praktisch",
+    "ambitious": "Ehrgeizig",
+    "curious": "Neugierig",
+    "optimistic": "Optimistisch",
+    "realistic": "Realistisch",
+    "spontaneous": "Spontan",
+    "organized": "Organisiert"
+  },
+  "generating_profile": "Dein KI-Profil wird erstellt...",
+  "download_cultural_card": "Kulturkarte herunterladen",
+  "try_another_cultural_twin": "Anderen kulturellen Zwilling testen",
+  "share_on_x": "Auf X teilen",
+  "share_on_whatsapp": "Auf WhatsApp teilen",
+  "share_on_instagram": "Auf Instagram teilen",
+  "share_on_facebook": "Auf Facebook teilen",
+  "home_page": "Startseite",
+  "cultural_twin_card_title": "Ihre Kulturelle Zwilling-Karte",
+  "cultural_twin_title": "Dein kultureller Zwilling",
+  "cultural_twin_description": "Inspiriert von deiner Persönlichkeit haben wir dich mit {{twinName}} gepaart, einer Figur, die deine kulturelle Energie widerspiegelt.",
+  "unknown_twin": "Unbekannt",
+  "ai_therapy_suggestion": "KI-Therapie-Vorschlag",
+  "summary": "Zusammenfassung",
+  "recommendation": "Empfehlung",
+  "daily_tip": "Täglicher Tipp",
+  "ai_powered_cultural_map": "KI-gestützte Kulturlandkarte",
+  "cultural_dna_match": "Kulturelle DNA-Übereinstimmung",
+  "card_title": "Deine Kulturelle Zwilling-Karte",
+  "generated_by": "Erstellt von TasteMatchAI",
+  "discover_text": "Entdecke deinen kulturellen Zwilling auf tastemirror.online",
+  "your_cultural_twin": "Dein kultureller Zwilling",
+  "file_name": "kultureller_zwilling",
+  "regions": {
+    "north_america": "Nordamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "south_america": "Südamerika",
+    "africa": "Afrika",
+    "australia": "Australien",
+    "middle_east": "Naher Osten",
+    "turkey": "Türkei",
+    "usa": "USA",
+    "united_states": "Vereinigte Staaten",
+    "united_kingdom": "Vereinigtes Königreich",
+    "uk": "Vereinigtes Königreich",
+    "germany": "Deutschland",
+    "france": "Frankreich",
+    "italy": "Italien",
+    "spain": "Spanien",
+    "japan": "Japan",
+    "south_korea": "Südkorea",
+    "china": "China",
+    "india": "Indien",
+    "brazil": "Brasilien",
+    "canada": "Kanada",
+    "russia": "Russland"
+  },
+  "music_recommendations": "Musik-Empfehlungen",
+  "movie_recommendations": "Film-Empfehlungen",
+  "cultural_map": {
+    "usa": {
+      "insight": "Die amerikanische Kultur ist geprägt von Vielfalt und Innovation. Die Hollywood-Filmindustrie, Broadway-Musicals und verschiedene Musikgenres tragen wesentlich zur Weltkultur bei.",
+      "reason": "Ideal für deine kreative und weltoffene Persönlichkeit"
+    },
+    "south_korea": {
+      "insight": "Die südkoreanische Kultur ist eine perfekte Mischung aus Technologie und traditionellen Werten. K-Pop-Musik, K-Drama-Serien und traditionelle Hanbok-Kleidung verbinden moderne und traditionelle Werte.",
+      "reason": "Geeignet für deine Persönlichkeit, die Technologie und traditionelle Werte liebt"
+    },
+    "uk": {
+      "insight": "Die britische Kultur ist die perfekte Balance zwischen Tradition und Moderne. Sie hat ein reiches kulturelles Erbe mit britischem Rock, Shakespeare-Theater und Teekultur.",
+      "reason": "Perfekt für deine Persönlichkeit, die Tradition und Moderne ausbalanciert"
+    },
+    "japan": {
+      "insight": "Die japanische Kultur ist eine Synthese aus traditionellen Werten und technologischem Fortschritt. Sie schafft eine einzigartige Kultur mit Anime, Manga, traditioneller Teezeremonie und moderner Technologie.",
+      "reason": "Geeignet für deine Persönlichkeit, die Technologie und Kunst verbindet"
+    }
+  },
+  "archetype": "Archetyp",
+  "personality_badges": "Persönlichkeitsabzeichen",
+  "badges": {
+    "unlocked": "Freigeschaltet",
+    "locked": "Gesperrt",
+    "progress": "Fortschritt",
+    "movie_enthusiast": {
+      "title": "Film-Enthusiast",
+      "description": "Sie haben eine tiefe Wertschätzung für Kino und Geschichtenerzählung"
+    },
+    "music_lover": {
+      "title": "Musikliebhaber",
+      "description": "Ihre Seele schwingt mit dem Rhythmus der Melodien"
+    },
+    "fashion_forward": {
+      "title": "Mode-Vorreiter",
+      "description": "Sie haben ein scharfes Auge für Stil und Trends"
+    },
+    "global_citizen": {
+      "title": "Weltbürger",
+      "description": "Sie verbinden sich mit Kulturen aus der ganzen Welt"
+    },
+    "cultural_expert": {
+      "title": "Kultur-Experte",
+      "description": "Sie haben ein außergewöhnliches kulturelles Verständnis"
+    },
+    "personality_explorer": {
+      "title": "Persönlichkeits-Entdecker",
+      "description": "Sie haben Ihr einzigartiges Persönlichkeitsprofil entdeckt"
+    },
+    "twin_finder": {
+      "title": "Zwilling-Finder",
+      "description": "Sie haben Ihren kulturellen Zwilling gefunden: {{twinName}}"
+    },
+    "superhero_fan": {
+      "title": "Superhelden-Fan",
+      "description": "Sie folgen den mächtigen Charakteren des Marvel-Universums"
+    },
+    "mind_bender": {
+      "title": "Geist-Bieger",
+      "description": "Sie bevorzugen komplexe und zum Nachdenken anregende Filme"
+    },
+    "cinema_lover": {
+      "title": "Kino-Liebhaber",
+      "description": "Sie lieben die magische Atmosphäre der Filmwelt"
+    },
+    "rock_star": {
+      "title": "Rock-Star",
+      "description": "Sie bevorzugen kraftvolle und energetische Rockmusik"
+    },
+    "pop_sensation": {
+      "title": "Pop-Sensation",
+      "description": "Sie lieben eingängige und unterhaltsame Popmusik"
+    },
+    "music_explorer": {
+      "title": "Musik-Entdecker",
+      "description": "Sie genießen es, verschiedene Musikgenres zu erkunden"
+    },
+    "sports_enthusiast": {
+      "title": "Sport-Enthusiast",
+      "description": "Sie umarmen einen aktiven und dynamischen Lebensstil"
+    },
+    "tech_innovator": {
+      "title": "Tech-Innovator",
+      "description": "Sie folgen innovativen Technologien"
+    },
+    "style_conscious": {
+      "title": "Stil-Bewusster",
+      "description": "Sie bevorzugen hochwertige und stilvolle Marken"
+    },
+    "cultural_twin_finder": {
+      "title": "Kultureller Zwilling-Finder",
+      "description": "Sie haben Ihren kulturellen Zwilling gefunden: {{twinName}}"
+    },
+    "personality_explorer": {
+      "title": "Persönlichkeits-Entdecker",
+      "description": "Ihr einzigartiger Persönlichkeitstyp: {{archetypeName}}"
+    }
+  },
+  "cultural_compatibility": "Kulturelle Kompatibilität",
+  "compatibility_description": "Entdecken Sie Menschen mit ähnlicher kultureller DNA und Persönlichkeitsmerkmalen",
+  "compatible_users": "Kompatible Benutzer",
+  "average_compatibility": "Durchschnittliche Kompatibilität",
+  "explore_more_matches": "Weitere Übereinstimmungen Erkunden",
+  "compatibility_cta": "Verbinden Sie sich mit Menschen, die Ihre kulturelle Energie teilen!",
+  "personalized_recommendation": "Personalisierte Empfehlung",
+  "why_for_you": "Warum Für Sie",
+  "cultural_insight": "Kulturelle Einsicht",
+  "music_recommendations": "Musikempfehlungen",
+  "movie_recommendations": "Filmempfehlungen",
+  "app_title": "Taste Mirror - Entdecke deinen Kulturellen Zwilling",
+  "cultural_twin_analysis": "Kulturelle Zwilling-Analyse",
+  "error": {
+    "analysis_failed": "Analyse Fehlgeschlagen",
+    "try_again": "Erneut Versuchen"
+  },
+  "fake_users": {
+    "user-001": {
+      "bio": "Technologie-Enthusiast, der Science-Fiction und elektronische Musik liebt. Erforscht immer neue Kulturen und Ideen."
+    },
+    "user-002": {
+      "bio": "Kreativer Direktor mit Leidenschaft für komplexe Erzählungen und künstlerischen Ausdruck."
+    },
+    "user-003": {
+      "bio": "Mode-Influencer und Social-Media-Content-Creator. Leidenschaftlich für Repräsentation und Vielfalt."
+    },
+    "user-004": {
+      "bio": "Digitaler Künstler und Animations-Enthusiast. Findet Schönheit an der Schnittstelle von Technologie und Natur."
+    },
+    "user-005": {
+      "bio": "Umweltaktivist und Bücherliebhaber. Glaubt an die Kraft von Bildung und nachhaltigem Leben."
+    },
+    "user-006": {
+      "bio": "Software-Ingenieur und Musik-Enthusiast. Verbindet Kulturen durch Technologie und Kunst."
+    },
+    "user-007": {
+      "bio": "Content-Creator und Comedy-Autor. Bringt Menschen zum Lachen und bricht dabei Stereotype."
+    },
+    "user-008": {
+      "bio": "Film-Enthusiast und Kulturforscher. Erforscht die Magie im Alltagsleben."
+    }
+  }
+}

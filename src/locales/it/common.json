@@ -1,0 +1,234 @@
+{
+  "form": {
+    "title": "Scopri il tuo Gemello Culturale",
+    "subtitle": "Trova il tuo gemello culturale con l'analisi della personalità alimentata dall'IA",
+    "movies": "Film Preferiti",
+    "moviesPlaceholder": "es. Inception, Matrix, ...",
+    "movies_help": "Condividi i tuoi film, generi o registi preferiti",
+    "music": "Musica preferita",
+    "musicPlaceholder": "es. Rock, Pop, Jazz, ...",
+    "music_help": "Condividi i tuoi artisti, generi o canzoni preferiti",
+    "brands": "Marchi preferiti",
+    "brandsPlaceholder": "es. Nike, Apple, ...",
+    "brands_help": "Condividi i tuoi marchi, prodotti o aziende preferiti",
+    "gender": "Genere",
+    "genderSelect": "Seleziona",
+    "genderMale": "Maschio",
+    "genderFemale": "Femmina",
+    "genderNonBinary": "Non-binario",
+    "genderOther": "Altro",
+    "gender_help": "Seleziona la tua identità di genere per un migliore abbinamento culturale",
+    "submit": "Invia",
+    "loading": "Caricamento..."
+  },
+  "gender": {
+    "male": "Maschio",
+    "female": "Femmina",
+    "nonbinary": "Non binario",
+    "prefer": "Preferisco non dirlo",
+    "select": "Seleziona genere"
+  },
+  "generating_profile": "Generazione del tuo profilo IA...",
+  "download_cultural_card": "Scarica la scheda culturale",
+  "try_another_cultural_twin": "Prova un altro gemello culturale",
+  "share_on_x": "Condividi su X",
+  "share_on_whatsapp": "Condividi su WhatsApp",
+  "share_on_instagram": "Condividi su Instagram",
+  "share_on_facebook": "Condividi su Facebook",
+  "home_page": "Pagina Principale",
+  "cultural_twin_card_title": "La Tua Carta del Gemello Culturale",
+  "cultural_twin_title": "Il tuo gemello culturale",
+  "cultural_twin_description": "Ispirati dalla tua personalità, ti abbiamo abbinato con {{twinName}}, una figura che rispecchia la tua energia culturale.",
+  "unknown_twin": "Sconosciuto",
+  "ai_therapy_suggestion": "Suggerimento di terapia IA",
+  "summary": "Riepilogo",
+  "recommendation": "Raccomandazione",
+  "daily_tip": "Consiglio quotidiano",
+  "ai_powered_cultural_map": "Mappa Culturale AI",
+  "cultural_dna_match": "Corrispondenza DNA Culturale",
+  "card_title": "La Tua Carta del Gemello Culturale",
+  "generated_by": "Generato da TasteMatchAI",
+  "discover_text": "Scopri il tuo gemello culturale su tastemirror.online",
+  "your_cultural_twin": "Il Tuo Gemello Culturale",
+  "file_name": "gemello_culturale",
+  "loading": {
+    "title": "Generazione del tuo Profilo IA...",
+    "subtitle": "Analisi della personalità e ricerca di corrispondenze culturali",
+    "stages": {
+      "start": "Generazione Profilo IA...",
+      "analyzing": "Analisi della Personalità...",
+      "cultural": "Ricerca Corrispondenze Culturali...",
+      "finalizing": "Finalizzazione Risultati..."
+    }
+  },
+  "result": {
+    "persona": "Il tuo profilo",
+    "traits": "Tratti",
+    "insights": "Intuizioni sulla personalità"
+  },
+  "traits": {
+    "innovative": "Innovativo",
+    "trendsetter": "Creatore di Tendenze",
+    "adventurous": "Avventuroso",
+    "technophile": "Tecnofilo",
+    "determined": "Determinato",
+    "creative": "Creativo",
+    "analytical": "Analitico",
+    "social": "Sociale",
+    "introspective": "Introspettivo",
+    "extroverted": "Estroverso",
+    "empathetic": "Empatico",
+    "logical": "Logico",
+    "artistic": "Artistico",
+    "practical": "Pratico",
+    "ambitious": "Ambitioso",
+    "curious": "Curioso",
+    "optimistic": "Ottimista",
+    "realistic": "Realistico",
+    "spontaneous": "Spontaneo",
+    "organized": "Organizzato"
+  },
+  "archetype": "Archetipo",
+  "personality_badges": "Distintivi di Personalità",
+  "badges": {
+    "unlocked": "Sbloccato",
+    "locked": "Bloccato",
+    "progress": "Progresso",
+    "movie_enthusiast": {
+      "title": "Entusiasta del Cinema",
+      "description": "Hai una profonda apprezzamento per il cinema e la narrazione"
+    },
+    "music_lover": {
+      "title": "Amante della Musica",
+      "description": "La tua anima risuona con il ritmo delle melodie"
+    },
+    "fashion_forward": {
+      "title": "Avanguardista della Moda",
+      "description": "Hai un occhio acuto per lo stile e le tendenze"
+    },
+    "global_citizen": {
+      "title": "Cittadino del Mondo",
+      "description": "Ti connetti con culture da tutto il mondo"
+    },
+    "cultural_expert": {
+      "title": "Esperto Culturale",
+      "description": "Hai una comprensione culturale eccezionale"
+    },
+    "personality_explorer": {
+      "title": "Esploratore di Personalità",
+      "description": "Hai scoperto il tuo profilo di personalità unico"
+    },
+    "twin_finder": {
+      "title": "Cercatore di Gemelli",
+      "description": "Hai trovato il tuo gemello culturale: {{twinName}}"
+    },
+    "superhero_fan": {
+      "title": "Fan di Supereroi",
+      "description": "Segui i potenti personaggi dell'universo Marvel"
+    },
+    "mind_bender": {
+      "title": "Piegatore di Menti",
+      "description": "Preferisci film complessi e stimolanti"
+    },
+    "cinema_lover": {
+      "title": "Amante del Cinema",
+      "description": "Ami l'atmosfera magica del mondo cinematografico"
+    },
+    "rock_star": {
+      "title": "Rock Star",
+      "description": "Preferisci musica rock potente ed energica"
+    },
+    "pop_sensation": {
+      "title": "Sensazione Pop",
+      "description": "Ami la musica pop orecchiabile e divertente"
+    },
+    "music_explorer": {
+      "title": "Esploratore Musicale",
+      "description": "Ti piace esplorare diversi generi musicali"
+    },
+    "sports_enthusiast": {
+      "title": "Entusiasta dello Sport",
+      "description": "Abbracci uno stile di vita attivo e dinamico"
+    },
+    "tech_innovator": {
+      "title": "Innovatore Tecnologico",
+      "description": "Segui tecnologie innovative"
+    },
+    "style_conscious": {
+      "title": "Consapevole dello Stile",
+      "description": "Preferisci marchi di qualità ed eleganti"
+    },
+    "cultural_twin_finder": {
+      "title": "Cercatore di Gemelli Culturali",
+      "description": "Hai trovato il tuo gemello culturale: {{twinName}}"
+    },
+    "personality_explorer": {
+      "title": "Esploratore di Personalità",
+      "description": "Il tuo tipo di personalità unico: {{archetypeName}}"
+    }
+  },
+  "cultural_compatibility": "Compatibilità Culturale",
+  "compatibility_description": "Scopri persone con DNA culturale e tratti di personalità simili",
+  "compatible_users": "Utenti Compatibili",
+  "average_compatibility": "Compatibilità Media",
+  "explore_more_matches": "Esplora Più Corrispondenze",
+  "compatibility_cta": "Connettiti con persone che condividono la tua energia culturale!",
+  "personalized_recommendation": "Raccomandazione Personalizzata",
+  "why_for_you": "Perché Per Te",
+  "cultural_insight": "Intuizione Culturale",
+  "music_recommendations": "Raccomandazioni Musicali",
+  "movie_recommendations": "Raccomandazioni di Film",
+  "cultural_map": {
+    "usa": {
+      "insight": "La cultura americana è caratterizzata da diversità e innovazione. L'industria cinematografica di Hollywood, i musical di Broadway e vari generi musicali contribuiscono enormemente alla cultura mondiale.",
+      "reason": "Ideale per la tua personalità creativa e di mente aperta"
+    },
+    "south_korea": {
+      "insight": "La cultura sudcoreana è una perfetta miscela di tecnologia e valori tradizionali. La musica K-Pop, le serie K-drama e l'abbigliamento tradizionale hanbok combinano valori moderni e tradizionali.",
+      "reason": "Adatto alla tua personalità che ama la tecnologia e i valori tradizionali"
+    },
+    "uk": {
+      "insight": "La cultura britannica è il perfetto equilibrio tra tradizione e modernità. Ha un ricco patrimonio culturale con la musica rock britannica, il teatro di Shakespeare e la cultura del tè.",
+      "reason": "Perfetto per la tua personalità che bilancia tradizione e modernità"
+    },
+    "japan": {
+      "insight": "La cultura giapponese è una sintesi di valori tradizionali e progresso tecnologico. Crea una cultura unica con anime, manga, cerimonia tradizionale del tè e tecnologia moderna.",
+      "reason": "Adatto alla tua personalità che combina tecnologia e arte"
+    }
+  },
+  "download": "Scarica Carta Culturale",
+  "tryAnother": "Prova un Altro Gemello Culturale",
+  "share": "Condividi su X",
+  "app_title": "Taste Mirror - Scopri il tuo Gemello Culturale",
+  "cultural_twin_analysis": "Analisi Gemello Culturale",
+  "error": {
+    "analysis_failed": "Analisi Fallita",
+    "try_again": "Riprova"
+  },
+  "fake_users": {
+    "user-001": {
+      "bio": "Appassionato di tecnologia che ama la fantascienza e la musica elettronica. Esplora sempre nuove culture e idee."
+    },
+    "user-002": {
+      "bio": "Direttore creativo con passione per le narrazioni complesse e l'espressione artistica."
+    },
+    "user-003": {
+      "bio": "Influencer di moda e creatore di contenuti sui social media. Appassionato di rappresentazione e diversità."
+    },
+    "user-004": {
+      "bio": "Artista digitale e appassionato di animazione. Trova bellezza nell'intersezione tra tecnologia e natura."
+    },
+    "user-005": {
+      "bio": "Attivista ambientale e amante dei libri. Crede nel potere dell'educazione e della vita sostenibile."
+    },
+    "user-006": {
+      "bio": "Ingegnere software e appassionato di musica. Collega le culture attraverso tecnologia e arte."
+    },
+    "user-007": {
+      "bio": "Creatore di contenuti e scrittore di commedie. Fa ridere le persone mentre rompe gli stereotipi."
+    },
+    "user-008": {
+      "bio": "Appassionato di cinema e ricercatore culturale. Esplora la magia nella vita quotidiana."
+    }
+  }
+}

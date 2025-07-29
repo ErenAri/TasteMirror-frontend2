@@ -1,0 +1,234 @@
+{
+  "form": {
+    "title": "Découvrez votre Jumeau Culturel",
+    "subtitle": "Trouvez votre jumeau culturel avec l'analyse de personnalité alimentée par l'IA",
+    "movies": "Films Préférés",
+    "moviesPlaceholder": "ex. Inception, Matrix, ...",
+    "movies_help": "Partagez vos films, genres ou réalisateurs préférés",
+    "music": "Musique préférée",
+    "musicPlaceholder": "ex. Rock, Pop, Jazz, ...",
+    "music_help": "Partagez vos artistes, genres ou chansons préférés",
+    "brands": "Marques préférées",
+    "brandsPlaceholder": "ex. Nike, Apple, ...",
+    "brands_help": "Partagez vos marques, produits ou entreprises préférés",
+    "gender": "Genre",
+    "genderSelect": "Sélectionner",
+    "genderMale": "Masculin",
+    "genderFemale": "Féminin",
+    "genderNonBinary": "Non-binaire",
+    "genderOther": "Autre",
+    "gender_help": "Sélectionnez votre identité de genre pour un meilleur appariement culturel",
+    "submit": "Envoyer",
+    "loading": "Chargement..."
+  },
+  "gender": {
+    "male": "Homme",
+    "female": "Femme",
+    "nonbinary": "Non binaire",
+    "prefer": "Je préfère ne pas dire",
+    "select": "Sélectionner le genre"
+  },
+  "generating_profile": "Génération de votre profil IA...",
+  "download_cultural_card": "Télécharger la carte culturelle",
+  "try_another_cultural_twin": "Essayer un autre jumeau culturel",
+  "share_on_x": "Partager sur X",
+  "share_on_whatsapp": "Partager sur WhatsApp",
+  "share_on_instagram": "Partager sur Instagram",
+  "share_on_facebook": "Partager sur Facebook",
+  "home_page": "Page d'Accueil",
+  "cultural_twin_card_title": "Votre Carte de Jumeau Culturel",
+  "cultural_twin_title": "Votre jumeau culturel",
+  "cultural_twin_description": "Inspirés par votre personnalité, nous vous avons jumelé avec {{twinName}}, une figure qui reflète votre énergie culturelle.",
+  "unknown_twin": "Inconnu",
+  "ai_therapy_suggestion": "Suggestion de thérapie IA",
+  "summary": "Résumé",
+  "recommendation": "Recommandation",
+  "daily_tip": "Conseil quotidien",
+  "ai_powered_cultural_map": "Carte Culturelle IA",
+  "cultural_dna_match": "Correspondance d'ADN Culturel",
+  "card_title": "Votre Carte de Jumeau Culturel",
+  "generated_by": "Généré par TasteMatchAI",
+  "discover_text": "Découvrez votre jumeau culturel sur tastemirror.online",
+  "your_cultural_twin": "Votre Jumeau Culturel",
+  "file_name": "jumeau_culturel",
+  "loading": {
+    "title": "Génération de votre Profil IA...",
+    "subtitle": "Analyse de la personnalité et recherche de correspondances culturelles",
+    "stages": {
+      "start": "Génération du Profil IA...",
+      "analyzing": "Analyse de la Personnalité...",
+      "cultural": "Recherche de Correspondances Culturelles...",
+      "finalizing": "Finalisation des Résultats..."
+    }
+  },
+  "result": {
+    "persona": "Votre personnage",
+    "traits": "Traits",
+    "insights": "Aperçus de personnalité"
+  },
+  "traits": {
+    "innovative": "Innovateur",
+    "trendsetter": "Créateur de Tendances",
+    "adventurous": "Aventureux",
+    "technophile": "Technophile",
+    "determined": "Déterminé",
+    "creative": "Créatif",
+    "analytical": "Analytique",
+    "social": "Social",
+    "introspective": "Introspectif",
+    "extroverted": "Extraverti",
+    "empathetic": "Empathique",
+    "logical": "Logique",
+    "artistic": "Artistique",
+    "practical": "Pratique",
+    "ambitious": "Ambitieux",
+    "curious": "Curieux",
+    "optimistic": "Optimiste",
+    "realistic": "Réaliste",
+    "spontaneous": "Spontané",
+    "organized": "Organisé"
+  },
+  "archetype": "Archétype",
+  "personality_badges": "Badges de Personnalité",
+  "badges": {
+    "unlocked": "Débloqué",
+    "locked": "Verrouillé",
+    "progress": "Progrès",
+    "movie_enthusiast": {
+      "title": "Passionné de Cinéma",
+      "description": "Vous avez une appréciation profonde du cinéma et de la narration"
+    },
+    "music_lover": {
+      "title": "Amoureux de la Musique",
+      "description": "Votre âme résonne avec le rythme des mélodies"
+    },
+    "fashion_forward": {
+      "title": "Avant-gardiste de la Mode",
+      "description": "Vous avez un œil aiguisé pour le style et les tendances"
+    },
+    "global_citizen": {
+      "title": "Citoyen du Monde",
+      "description": "Vous vous connectez avec des cultures du monde entier"
+    },
+    "cultural_expert": {
+      "title": "Expert Culturel",
+      "description": "Vous avez une compréhension culturelle exceptionnelle"
+    },
+    "personality_explorer": {
+      "title": "Explorateur de Personnalité",
+      "description": "Vous avez découvert votre profil de personnalité unique"
+    },
+    "twin_finder": {
+      "title": "Découvreur de Jumeaux",
+      "description": "Vous avez trouvé votre jumeau culturel : {{twinName}}"
+    },
+    "superhero_fan": {
+      "title": "Fan de Super-héros",
+      "description": "Vous suivez les puissants personnages de l'univers Marvel"
+    },
+    "mind_bender": {
+      "title": "Plieur d'Esprit",
+      "description": "Vous préférez les films complexes et stimulants"
+    },
+    "cinema_lover": {
+      "title": "Amoureux du Cinéma",
+      "description": "Vous aimez l'atmosphère magique du monde cinématographique"
+    },
+    "rock_star": {
+      "title": "Star du Rock",
+      "description": "Vous préférez la musique rock puissante et énergique"
+    },
+    "pop_sensation": {
+      "title": "Sensation Pop",
+      "description": "Vous aimez la musique pop accrocheuse et amusante"
+    },
+    "music_explorer": {
+      "title": "Explorateur Musical",
+      "description": "Vous aimez explorer différents genres musicaux"
+    },
+    "sports_enthusiast": {
+      "title": "Passionné de Sport",
+      "description": "Vous embrassez un mode de vie actif et dynamique"
+    },
+    "tech_innovator": {
+      "title": "Innovateur Technologique",
+      "description": "Vous suivez les technologies innovantes"
+    },
+    "style_conscious": {
+      "title": "Conscient du Style",
+      "description": "Vous préférez les marques de qualité et élégantes"
+    },
+    "cultural_twin_finder": {
+      "title": "Découvreur de Jumeaux Culturels",
+      "description": "Vous avez trouvé votre jumeau culturel : {{twinName}}"
+    },
+    "personality_explorer": {
+      "title": "Explorateur de Personnalité",
+      "description": "Votre type de personnalité unique : {{archetypeName}}"
+    }
+  },
+  "cultural_compatibility": "Compatibilité Culturelle",
+  "compatibility_description": "Découvrez des personnes avec un ADN culturel et des traits de personnalité similaires",
+  "compatible_users": "Utilisateurs Compatibles",
+  "average_compatibility": "Compatibilité Moyenne",
+  "explore_more_matches": "Explorer Plus de Correspondances",
+  "compatibility_cta": "Connectez-vous avec des personnes qui partagent votre énergie culturelle !",
+  "personalized_recommendation": "Recommandation Personnalisée",
+  "why_for_you": "Pourquoi Pour Vous",
+  "cultural_insight": "Aperçu Culturel",
+  "music_recommendations": "Recommandations Musicales",
+  "movie_recommendations": "Recommandations de Films",
+  "cultural_map": {
+    "usa": {
+      "insight": "La culture américaine se caractérise par la diversité et l'innovation. L'industrie cinématographique d'Hollywood, les comédies musicales de Broadway et divers genres musicaux contribuent grandement à la culture mondiale.",
+      "reason": "Idéal pour votre personnalité créative et ouverte d'esprit"
+    },
+    "south_korea": {
+      "insight": "La culture sud-coréenne est un mélange parfait de technologie et de valeurs traditionnelles. La musique K-Pop, les séries K-drama et les vêtements traditionnels hanbok combinent valeurs modernes et traditionnelles.",
+      "reason": "Convenable pour votre personnalité qui aime la technologie et les valeurs traditionnelles"
+    },
+    "uk": {
+      "insight": "La culture britannique est l'équilibre parfait entre tradition et modernité. Elle a un riche patrimoine culturel avec la musique rock britannique, le théâtre de Shakespeare et la culture du thé.",
+      "reason": "Parfait pour votre personnalité qui équilibre tradition et modernité"
+    },
+    "japan": {
+      "insight": "La culture japonaise est une synthèse de valeurs traditionnelles et de progrès technologique. Elle crée une culture unique avec l'anime, le manga, la cérémonie traditionnelle du thé et la technologie moderne.",
+      "reason": "Convenable pour votre personnalité qui combine technologie et art"
+    }
+  },
+  "download": "Télécharger la Carte Culturelle",
+  "tryAnother": "Essayer un Autre Jumeau Culturel",
+  "share": "Partager sur X",
+  "app_title": "Taste Mirror - Découvrez votre Jumeau Culturel",
+  "cultural_twin_analysis": "Analyse de Jumeau Culturel",
+  "error": {
+    "analysis_failed": "Échec de l'Analyse",
+    "try_again": "Réessayer"
+  },
+  "fake_users": {
+    "user-001": {
+      "bio": "Passionné de technologie qui aime la science-fiction et la musique électronique. Explore toujours de nouvelles cultures et idées."
+    },
+    "user-002": {
+      "bio": "Directeur créatif avec une passion pour les récits complexes et l'expression artistique."
+    },
+    "user-003": {
+      "bio": "Influenceur de mode et créateur de contenu sur les réseaux sociaux. Passionné par la représentation et la diversité."
+    },
+    "user-004": {
+      "bio": "Artiste numérique et passionné d'animation. Trouve la beauté à l'intersection de la technologie et de la nature."
+    },
+    "user-005": {
+      "bio": "Activiste environnemental et amoureux des livres. Croit au pouvoir de l'éducation et de la vie durable."
+    },
+    "user-006": {
+      "bio": "Ingénieur logiciel et passionné de musique. Connecte les cultures à travers la technologie et l'art."
+    },
+    "user-007": {
+      "bio": "Créateur de contenu et écrivain de comédie. Fait rire les gens tout en brisant les stéréotypes."
+    },
+    "user-008": {
+      "bio": "Passionné de cinéma et chercheur culturel. Explore la magie dans la vie quotidienne."
+    }
+  }
+}

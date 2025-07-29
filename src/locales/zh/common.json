@@ -1,0 +1,234 @@
+{
+  "form": {
+    "title": "发现你的文化双胞胎",
+    "subtitle": "通过AI驱动的个性分析找到你的文化双胞胎",
+    "movies": "最喜欢的电影",
+    "moviesPlaceholder": "例如 Inception, Matrix, ...",
+    "movies_help": "分享您喜欢的电影、类型或导演",
+    "music": "最喜欢的音乐",
+    "musicPlaceholder": "例如 Rock, Pop, Jazz, ...",
+    "music_help": "分享您喜欢的艺术家、类型或歌曲",
+    "brands": "最喜欢的品牌",
+    "brandsPlaceholder": "例如 Nike, Apple, ...",
+    "brands_help": "分享您喜欢的品牌、产品或公司",
+    "gender": "性别",
+    "genderSelect": "选择",
+    "genderMale": "男性",
+    "genderFemale": "女性",
+    "genderNonBinary": "非二元性别",
+    "genderOther": "其他",
+    "gender_help": "选择您的性别身份以获得更好的文化匹配",
+    "submit": "提交",
+    "loading": "加载中..."
+  },
+  "gender": {
+    "male": "男",
+    "female": "女",
+    "nonbinary": "非二元",
+    "prefer": "不愿透露",
+    "select": "选择性别"
+  },
+  "generating_profile": "正在生成你的AI文化画像...",
+  "download_cultural_card": "下载文化卡片",
+  "try_another_cultural_twin": "再试一个文化双胞胎",
+  "share_on_x": "在X上分享",
+  "share_on_whatsapp": "在WhatsApp上分享",
+  "share_on_instagram": "在Instagram上分享",
+  "share_on_facebook": "在Facebook上分享",
+  "home_page": "主页",
+  "cultural_twin_card_title": "你的文化双胞胎卡片",
+  "cultural_twin_title": "你的文化双胞胎",
+  "cultural_twin_description": "受你个性的启发，我们将你与{{twinName}}配对，一个反映你文化能量的形象。",
+  "unknown_twin": "未知",
+  "ai_therapy_suggestion": "AI治疗建议",
+  "summary": "总结",
+  "recommendation": "建议",
+  "daily_tip": "每日提示",
+  "ai_powered_cultural_map": "AI驱动的文化地图",
+  "cultural_dna_match": "文化DNA匹配",
+  "card_title": "你的文化双胞胎卡片",
+  "generated_by": "由TasteMatchAI生成",
+  "discover_text": "在tastemirror.online发现你的文化双胞胎",
+  "your_cultural_twin": "你的文化双胞胎",
+  "file_name": "wenhua_shuangbaotai",
+  "loading": {
+    "title": "正在生成您的AI档案...",
+    "subtitle": "分析个性并寻找文化匹配",
+    "stages": {
+      "start": "正在生成AI档案...",
+      "analyzing": "正在分析个性...",
+      "cultural": "正在寻找文化匹配...",
+      "finalizing": "正在完成结果..."
+    }
+  },
+  "result": {
+    "persona": "你的个性",
+    "traits": "特质",
+    "insights": "个性洞察"
+  },
+  "traits": {
+    "innovative": "创新",
+    "trendsetter": "潮流引领者",
+    "adventurous": "冒险",
+    "technophile": "技术爱好者",
+    "determined": "坚定",
+    "creative": "创意",
+    "analytical": "分析性",
+    "social": "社交",
+    "introspective": "内省",
+    "extroverted": "外向",
+    "empathetic": "同理心",
+    "logical": "逻辑",
+    "artistic": "艺术",
+    "practical": "实用",
+    "ambitious": "雄心勃勃",
+    "curious": "好奇",
+    "optimistic": "乐观",
+    "realistic": "现实",
+    "spontaneous": "自发",
+    "organized": "有条理"
+  },
+  "archetype": "原型",
+  "personality_badges": "个性徽章",
+  "badges": {
+    "unlocked": "已解锁",
+    "locked": "已锁定",
+    "progress": "进度",
+    "movie_enthusiast": {
+      "title": "电影爱好者",
+      "description": "您对电影和讲故事有深刻的欣赏"
+    },
+    "music_lover": {
+      "title": "音乐爱好者",
+      "description": "您的灵魂与旋律的节奏产生共鸣"
+    },
+    "fashion_forward": {
+      "title": "时尚先锋",
+      "description": "您对风格和趋势有敏锐的眼光"
+    },
+    "global_citizen": {
+      "title": "世界公民",
+      "description": "您与来自世界各地的文化建立联系"
+    },
+    "cultural_expert": {
+      "title": "文化专家",
+      "description": "您具有卓越的文化理解力"
+    },
+    "personality_explorer": {
+      "title": "个性探索者",
+      "description": "您发现了自己独特的个性档案"
+    },
+    "twin_finder": {
+      "title": "双胞胎发现者",
+      "description": "您找到了您的文化双胞胎：{{twinName}}"
+    },
+    "superhero_fan": {
+      "title": "超级英雄粉丝",
+      "description": "您欣赏漫威宇宙中强大的角色"
+    },
+    "mind_bender": {
+      "title": "心灵扭曲者",
+      "description": "您偏好复杂且发人深省的电影"
+    },
+    "cinema_lover": {
+      "title": "电影爱好者",
+      "description": "您热爱电影世界的神奇氛围"
+    },
+    "rock_star": {
+      "title": "摇滚明星",
+      "description": "您偏好强大而充满活力的摇滚音乐"
+    },
+    "pop_sensation": {
+      "title": "流行音乐爱好者",
+      "description": "您热爱朗朗上口且有趣的流行音乐"
+    },
+    "music_explorer": {
+      "title": "音乐探索者",
+      "description": "您享受探索不同音乐流派"
+    },
+    "sports_enthusiast": {
+      "title": "运动爱好者",
+      "description": "您拥抱积极而充满活力的生活方式"
+    },
+    "tech_innovator": {
+      "title": "科技创新者",
+      "description": "您追随创新技术"
+    },
+    "style_conscious": {
+      "title": "时尚意识者",
+      "description": "您偏好优质且时尚的品牌"
+    },
+    "cultural_twin_finder": {
+      "title": "文化双胞胎发现者",
+      "description": "您找到了您的文化双胞胎：{{twinName}}"
+    },
+    "personality_explorer": {
+      "title": "个性探索者",
+      "description": "您独特的个性类型：{{archetypeName}}"
+    }
+  },
+  "cultural_compatibility": "文化兼容性",
+  "compatibility_description": "发现具有相似文化DNA和个性特征的人",
+  "compatible_users": "兼容用户",
+  "average_compatibility": "平均兼容性",
+  "explore_more_matches": "探索更多匹配",
+  "compatibility_cta": "与分享您文化能量的人联系！",
+  "personalized_recommendation": "个性化推荐",
+  "why_for_you": "为什么适合您",
+  "cultural_insight": "文化洞察",
+  "music_recommendations": "音乐推荐",
+  "movie_recommendations": "电影推荐",
+  "cultural_map": {
+    "usa": {
+      "insight": "美国文化以多样性和创新为特征。好莱坞电影工业、百老汇音乐剧和各种音乐流派对世界文化做出了巨大贡献。",
+      "reason": "适合您富有创造力和开放思维的性格"
+    },
+    "south_korea": {
+      "insight": "韩国文化是技术与传统价值观的完美融合。K-Pop音乐、K-drama系列和传统韩服结合了现代和传统价值观。",
+      "reason": "适合热爱技术和传统价值观的您"
+    },
+    "uk": {
+      "insight": "英国文化是传统与现代的完美平衡。它拥有丰富的文化遗产，包括英国摇滚音乐、莎士比亚戏剧和茶文化。",
+      "reason": "完美适合平衡传统与现代的您"
+    },
+    "japan": {
+      "insight": "日本文化是传统价值观和技术进步的综合体。它通过动漫、漫画、传统茶道和现代技术创造了独特的文化。",
+      "reason": "适合结合技术与艺术的您"
+    }
+  },
+  "download": "下载文化卡片",
+  "tryAnother": "尝试另一个文化双胞胎",
+  "share": "在X上分享",
+  "app_title": "Taste Mirror - 发现你的文化双胞胎",
+  "cultural_twin_analysis": "文化双胞胎分析",
+  "error": {
+    "analysis_failed": "分析失败",
+    "try_again": "重试"
+  },
+  "fake_users": {
+    "user-001": {
+      "bio": "热爱科幻和电子音乐的技术爱好者。总是探索新的文化和想法。"
+    },
+    "user-002": {
+      "bio": "对复杂叙事和艺术表达充满热情的创意总监。"
+    },
+    "user-003": {
+      "bio": "时尚影响者和社交媒体内容创作者。热衷于代表性和多样性。"
+    },
+    "user-004": {
+      "bio": "数字艺术家和动画爱好者。在技术与自然的交汇处发现美。"
+    },
+    "user-005": {
+      "bio": "环保活动家和书籍爱好者。相信教育和可持续生活的力量。"
+    },
+    "user-006": {
+      "bio": "软件工程师和音乐爱好者。通过技术和艺术连接文化。"
+    },
+    "user-007": {
+      "bio": "内容创作者和喜剧作家。让人们开怀大笑的同时打破刻板印象。"
+    },
+    "user-008": {
+      "bio": "电影爱好者和文化研究者。探索日常生活中的魔力。"
+    }
+  }
+}

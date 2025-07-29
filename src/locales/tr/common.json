@@ -1,0 +1,262 @@
+{
+  "form": {
+    "title": "Kültürel İkizini Keşfet",
+    "subtitle": "AI destekli kişilik analizi ile kültürel ikizini bul",
+    "movies": "Favori Filmler",
+    "moviesPlaceholder": "Ör: Inception, Matrix, ...",
+    "movies_help": "Favori filmlerinizi, türlerinizi veya yönetmenlerinizi paylaşın",
+    "music": "Favori Müzikleriniz/Müzik Türünüz",
+    "musicPlaceholder": "Ör: Rock, Pop, Jazz, ...",
+    "music_help": "Favori sanatçılarınızı, türlerinizi veya şarkılarınızı paylaşın",
+    "brands": "Favori Markalarınız",
+    "brandsPlaceholder": "Ör: Nike, Apple, ...",
+    "brands_help": "Favori markalarınızı, ürünlerinizi veya şirketlerinizi paylaşın",
+    "gender": "Cinsiyet",
+    "genderSelect": "Seçiniz",
+    "genderMale": "Erkek",
+    "genderFemale": "Kadın",
+    "genderNonBinary": "Non-binary",
+    "genderOther": "Diğer",
+    "gender_help": "Daha iyi kültürel eşleştirme için cinsiyet kimliğinizi seçin",
+    "submit": "Gönder",
+    "loading": "Yükleniyor..."
+  },
+  "gender": {
+    "male": "Erkek",
+    "female": "Kadın",
+    "nonbinary": "İkili olmayan",
+    "prefer": "Belirtmek istemiyorum",
+    "select": "Cinsiyet Seçin"
+  },
+  "generating_profile": "Yapay zeka profiliniz oluşturuluyor...",
+  "download_cultural_card": "Kültürel Kartı İndir",
+  "try_another_cultural_twin": "Başka Kültürel İkiz Dene",
+  "share_on_x": "X'te Paylaş",
+  "share_on_whatsapp": "WhatsApp'ta Paylaş",
+  "share_on_instagram": "Instagram'da Paylaş",
+  "share_on_facebook": "Facebook'ta Paylaş",
+  "share_on_linkedin": "LinkedIn'de Paylaş",
+  "home_page": "Ana Sayfa",
+  "cultural_twin_card_title": "Kültürel İkiz Kartınız",
+  "cultural_twin_title": "Kültürel İkiziniz",
+  "cultural_twin_description": "Kişiliğinizden ilham alarak sizi {{twinName}} ile eşleştirdik, kültürel enerjinizi yansıtan bir figür.",
+  "unknown_twin": "Bilinmeyen",
+  "ai_therapy_suggestion": "Yapay Zeka Terapi Önerisi",
+  "summary": "Özet",
+  "recommendation": "Öneri",
+  "daily_tip": "Günlük İpucu",
+  "ai_powered_cultural_map": "AI Destekli Kültürel Harita",
+  "cultural_dna_match": "Kültürel DNA Eşleşmesi",
+  "card_title": "Kültürel İkiz Kartınız",
+  "generated_by": "TasteMatchAI tarafından oluşturuldu",
+  "discover_text": "Kültürel ikizinizi tastemirror.online adresinde keşfedin",
+  "your_cultural_twin": "Kültürel İkiziniz",
+  "file_name": "kulturel_ikiz",
+  "loading": {
+    "title": "AI Profiliniz Oluşturuluyor...",
+    "subtitle": "Kişilik analizi ve kültürel eşleştirme yapılıyor",
+    "stages": {
+      "start": "AI Profili Oluşturuluyor...",
+      "analyzing": "Kişilik Analiz Ediliyor...",
+      "cultural": "Kültürel Eşleştirme Yapılıyor...",
+      "finalizing": "Sonuçlar Hazırlanıyor..."
+    }
+  },
+  "download": "Kültürel Kartı İndir",
+  "tryAnother": "Başka Kültürel İkiz Dene",
+  "share": "X'te Paylaş",
+  "result": {
+    "persona": "Senin Karakterin",
+    "traits": "Özellikler",
+    "insights": "Kişilik İçgörüleri"
+  },
+  "traits": {
+    "innovative": "Yenilikçi",
+    "trendsetter": "Trend Belirleyici",
+    "adventurous": "Maceraperest",
+    "technophile": "Teknoloji Tutkunu",
+    "determined": "Kararlı",
+    "creative": "Yaratıcı",
+    "analytical": "Analitik",
+    "social": "Sosyal",
+    "introspective": "İçe Dönük",
+    "extroverted": "Dışa Dönük",
+    "empathetic": "Empatik",
+    "logical": "Mantıklı",
+    "artistic": "Sanatsal",
+    "practical": "Pratik",
+    "ambitious": "Hırslı",
+    "curious": "Meraklı",
+    "optimistic": "İyimser",
+    "realistic": "Gerçekçi",
+    "spontaneous": "Anlık",
+    "organized": "Düzenli"
+  },
+  "archetype": "Arketip",
+  "personality_badges": "Kişilik Rozetleri",
+  "regions": {
+    "north_america": "Kuzey Amerika",
+    "europe": "Avrupa",
+    "asia": "Asya",
+    "south_america": "Güney Amerika",
+    "africa": "Afrika",
+    "australia": "Avustralya",
+    "middle_east": "Orta Doğu",
+    "turkey": "Türkiye",
+    "usa": "ABD",
+    "united_states": "Amerika Birleşik Devletleri",
+    "united_kingdom": "Birleşik Krallık",
+    "uk": "Birleşik Krallık",
+    "germany": "Almanya",
+    "france": "Fransa",
+    "italy": "İtalya",
+    "spain": "İspanya",
+    "japan": "Japonya",
+    "south_korea": "Güney Kore",
+    "china": "Çin",
+    "india": "Hindistan",
+    "brazil": "Brezilya",
+    "canada": "Kanada",
+    "russia": "Rusya"
+  },
+  "music_recommendations": "Müzik Önerileri",
+  "movie_recommendations": "Film Önerileri",
+  "badges": {
+    "unlocked": "Açıldı",
+    "locked": "Kilitli",
+    "progress": "İlerleme",
+    "movie_enthusiast": {
+      "title": "Film Tutkunu",
+      "description": "Sinema ve hikaye anlatımına derin bir takdiriniz var"
+    },
+    "music_lover": {
+      "title": "Müzik Aşığı",
+      "description": "Ruhunuz melodi ritimleriyle rezonans yapıyor"
+    },
+    "fashion_forward": {
+      "title": "Moda Öncüsü",
+      "description": "Stil ve trendler için keskin bir gözünüz var"
+    },
+    "global_citizen": {
+      "title": "Dünya Vatandaşı",
+      "description": "Dünyanın dört bir yanındaki kültürlerle bağlantı kuruyorsunuz"
+    },
+    "cultural_expert": {
+      "title": "Kültür Uzmanı",
+      "description": "Olağanüstü kültürel anlayışınız var"
+    },
+    "personality_explorer": {
+      "title": "Kişilik Kaşifi",
+      "description": "Benzersiz kişilik profilinizi keşfettiniz"
+    },
+    "twin_finder": {
+      "title": "İkiz Bulucu",
+      "description": "Kültürel ikizinizi buldunuz: {{twinName}}"
+    },
+    "superhero_fan": {
+      "title": "Süper Kahraman Hayranı",
+      "description": "Marvel evreninin güçlü karakterlerini takip ediyorsunuz"
+    },
+    "mind_bender": {
+      "title": "Zihin Bükücü",
+      "description": "Karmaşık ve düşündürücü filmleri tercih ediyorsunuz"
+    },
+    "cinema_lover": {
+      "title": "Sinema Aşığı",
+      "description": "Film dünyasının büyülü atmosferini seviyorsunuz"
+    },
+    "rock_star": {
+      "title": "Rock Yıldızı",
+      "description": "Güçlü ve enerjik rock müziğini tercih ediyorsunuz"
+    },
+    "pop_sensation": {
+      "title": "Pop Sensasyonu",
+      "description": "Catchy ve eğlenceli pop müziğini seviyorsunuz"
+    },
+    "music_explorer": {
+      "title": "Müzik Kaşifi",
+      "description": "Farklı müzik türlerini keşfetmeyi seviyorsunuz"
+    },
+    "sports_enthusiast": {
+      "title": "Spor Tutkunu",
+      "description": "Aktif ve dinamik yaşam tarzını benimsiyorsunuz"
+    },
+    "tech_innovator": {
+      "title": "Teknoloji Öncüsü",
+      "description": "Yenilikçi teknolojileri takip ediyorsunuz"
+    },
+    "style_conscious": {
+      "title": "Stil Bilinçli",
+      "description": "Kaliteli ve şık markaları tercih ediyorsunuz"
+    },
+    "cultural_twin_finder": {
+      "title": "Kültürel İkiz Bulucu",
+      "description": "Kültürel ikizinizi buldunuz: {{twinName}}"
+    },
+    "personality_explorer": {
+      "title": "Kişilik Kaşifi",
+      "description": "Benzersiz kişilik tipiniz: {{archetypeName}}"
+    }
+  },
+  "cultural_compatibility": "Kültürel Uyumluluk",
+  "compatibility_description": "Benzer kültürel DNA ve kişilik özelliklerine sahip insanları keşfedin",
+  "compatible_users": "Uyumlu Kullanıcılar",
+  "average_compatibility": "Ortalama Uyumluluk",
+  "explore_more_matches": "Daha Fazla Eşleşme Keşfet",
+  "compatibility_cta": "Kültürel enerjinizi paylaşan insanlarla bağlantı kurun!",
+  "personalized_recommendation": "Kişiselleştirilmiş Öneri",
+  "why_for_you": "Neden Size Uygun",
+  "cultural_insight": "Kültürel İçgörü",
+  "music_recommendations": "Müzik Önerileri",
+  "movie_recommendations": "Film Önerileri",
+  "app_title": "Taste Mirror - Kültürel İkizinizi Keşfedin",
+  "cultural_twin_analysis": "Kültürel İkiz Analizi",
+  "error": {
+    "analysis_failed": "Analiz Başarısız",
+    "try_again": "Tekrar Dene"
+  },
+  "cultural_map": {
+    "usa": {
+      "insight": "Amerikan kültürü çeşitlilik ve yenilikçilikle karakterize edilir. Hollywood film endüstrisi, Broadway müzikalleri ve çeşitli müzik türleriyle dünya kültürüne büyük katkı sağlar.",
+      "reason": "Yaratıcı ve açık fikirli kişiliğiniz için ideal"
+    },
+    "south_korea": {
+      "insight": "Güney Kore kültürü teknoloji ve geleneksel değerlerin mükemmel harmanıdır. K-Pop müziği, K-drama dizileri ve geleneksel hanbok kıyafetleri modern ve geleneksel değerleri birleştirir.",
+      "reason": "Teknoloji ve geleneksel değerleri seven kişiliğinize uygun"
+    },
+    "uk": {
+      "insight": "İngiliz kültürü gelenek ve modernliğin mükemmel dengesidir. British rock müziği, Shakespeare tiyatrosu ve çay kültürü ile zengin bir kültürel mirasa sahiptir.",
+      "reason": "Gelenek ve modernliği dengeleyen kişiliğiniz için mükemmel"
+    },
+    "japan": {
+      "insight": "Japon kültürü geleneksel değerler ve teknolojik ilerlemenin sentezidir. Anime, manga, geleneksel çay seremonisi ve modern teknoloji ile benzersiz bir kültür oluşturur.",
+      "reason": "Teknoloji ve sanatı birleştiren kişiliğinize uygun"
+    }
+  },
+  "fake_users": {
+    "user-001": {
+      "bio": "Bilim kurgu ve elektronik müziği seven teknoloji tutkunu. Yeni kültürleri ve fikirleri keşfetmeyi sürekli araştırıyor."
+    },
+    "user-002": {
+      "bio": "Karmaşık anlatılar ve sanatsal ifade tutkusu olan yaratıcı yönetmen."
+    },
+    "user-003": {
+      "bio": "Moda etkileyicisi ve sosyal medya içerik üreticisi. Temsil ve çeşitlilik konularında tutkulu."
+    },
+    "user-004": {
+      "bio": "Dijital sanatçı ve animasyon tutkunu. Teknoloji ve doğanın kesişiminde güzellik buluyor."
+    },
+    "user-005": {
+      "bio": "Çevre aktivisti ve kitap aşığı. Eğitimin ve sürdürülebilir yaşamın gücüne inanıyor."
+    },
+    "user-006": {
+      "bio": "Yazılım mühendisi ve müzik tutkunu. Teknoloji ve sanat aracılığıyla kültürleri birleştiriyor."
+    },
+    "user-007": {
+      "bio": "İçerik üreticisi ve komedi yazarı. İnsanları güldürürken klişeleri kırıyor."
+    },
+    "user-008": {
+      "bio": "Film tutkunu ve kültür araştırmacısı. Günlük yaşamdaki büyüyü keşfediyor."
+    }
+  }
+}

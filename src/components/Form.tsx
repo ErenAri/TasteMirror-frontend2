@@ -8,7 +8,7 @@ interface FormProps {
     brands: string;
     gender: string;
     language: string;
-  }) => void;
+  }, randomSeed?: number) => void;
   loading: boolean;
 }
 
@@ -55,7 +55,11 @@ const Form: React.FC<FormProps> = ({ onSubmit, loading }) => {
     localStorage.setItem('tasteMirror_form_brands', brands);
     localStorage.setItem('tasteMirror_form_gender', gender);
 
-    onSubmit(formData);
+    // Generate unique randomSeed for each submission
+    const randomSeed = Math.floor(Math.random() * 10000);
+    console.log('🔍 DEBUG: Generated randomSeed:', randomSeed);
+
+    onSubmit(formData, randomSeed);
   };
 
   return (

@@ -16,7 +16,7 @@ TasteMirror is an AI-powered personality and culture analysis platform that help
 - 💬 **AI Therapy Suggestion** – Personalized wellness tip based on your behavior.
 - 🎨 **Downloadable Cultural Twin Card** – Beautiful image for social sharing.
 - 🔄 **Try Again with Same Taste** – Shuffle variations for fun.
-- 🌐 **Multilingual Support** – Available in **English**, **Turkish**, **German**, **Spanish**, **French**, **Hindi**, **Italian**, **Chinese**.
+- 🌐 **Multilingual Support** – Available in **English**, **Turkish**, **German**, **Spanish**, **French**, **Hindi**, **Italian** and **Chinese**.
 
 ---
 
